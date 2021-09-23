@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Modifier l'annonce</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item class="txt">
+    <ion-label>Créer une annonce :</ion-label>
+  </ion-item>
+  <ion-item class="inpt">
+    <ion-label position="stacked">Le titre de votre projet :</ion-label>
+    <ion-input type="text" aria-disabled="false" value="{{titleProject}}"></ion-input>
+  </ion-item>
+
+  <ion-item class="txtarea">
+    <ion-label position="stacked">La description de votre projet :</ion-label>
+    <ion-textarea aria-disabled="false" value="{{descriptionProject}}"></ion-textarea>
+  </ion-item>
+
+  <ion-button expand="block" color="success" (click)="presentAlert()">Modifier </ion-button>
+</ion-content>

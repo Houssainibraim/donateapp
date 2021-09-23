@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item>
+    <h2>S'identifier autant que:</h2>
+  </ion-item>
+<div class="btn-container">
+  <ion-button class="btn" [routerLink]="['/login']" expand="block" color="success" ><i class="fas fa-user-cog fa-2x"> Admin</i></ion-button>
+  <ion-button class="btn" [routerLink]="['/association']"  expand="block" color="warning" ><i class="far fa-building fa-2x"> Association</i></ion-button>
+  <ion-button class="btn" [routerLink]="['/login-client']" expand="block" color="danger tint" ><i class="far fa-user fa-2x"> Client</i> </ion-button>
+</div>
+
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="../../assets/profile.png"></ion-img>
+  <div class="inputs">
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </div>
+
+  <ion-button expand="block" color="success" [routerLink]="['/dashboard']">Connexion</ion-button>
+
+</ion-content>

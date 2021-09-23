@@ -1,0 +1,34 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label class="txt">Identifiez-vous.</ion-label>
+  </ion-item>
+  <div class="item1"> 
+  <ion-item class="items">
+    <ion-label position="floating">L'id de votre association :</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+
+
+  <ion-item class="items" >
+    <ion-label position="floating">Le nom de votre association :</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Votre address</ion-label>
+    <ion-input placeholder="Address Line 1"></ion-input>
+    <ion-input placeholder="Address Line 2"></ion-input>
+    <ion-input placeholder="City"></ion-input>
+    <ion-input placeholder="State"></ion-input>
+    <ion-input placeholder="Zip Code"></ion-input>
+  </ion-item>
+
+</div>
+<ion-button expand="block" color="success" [routerLink]="['/annonce']">Vérifier</ion-button>
+
+</ion-content>
